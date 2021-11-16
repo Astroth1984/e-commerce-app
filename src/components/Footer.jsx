@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 import {
     Facebook,
     Instagram,
@@ -14,6 +15,7 @@ import {
 const Container = styled.div`
     display: flex;
     background-color: lightgray;
+    ${mobile({ flexDirection: "column" })}
 `;
 
 const Left = styled.div`
@@ -30,6 +32,7 @@ const Desc = styled.p`
 
 const SocialContainer = styled.div`
   display: flex;
+  ${mobile({ alignItems: "center", justifyContent:"center" })}
 `;
 
 const SocialIcon = styled.div`
@@ -69,6 +72,7 @@ const ListItem = styled.li`
 const Right = styled.div`
     flex: 1;
     padding: 20px;
+    ${mobile({ backgroundColor: "#eee" })}
 `;
 
 const ContactItem = styled.div`
