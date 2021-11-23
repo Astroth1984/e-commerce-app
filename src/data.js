@@ -25,20 +25,32 @@ export const categories = [{
         id: 1,
         img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         title: "SHIRT STYLE!",
-        cat: "women"
+        cat: "tshirt"
     },
     {
         id: 2,
         img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        title: "LOUNGEWEAR LOVE",
-        cat: "coat"
+        title: "LOUNGEWEAR",
+        cat: "men"
     },
     {
         id: 3,
         img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         title: "LIGHT JACKETS",
-        cat: "jeans"
+        cat: "jacket"
     },
+    {
+        id: 4,
+        img: "https://images.pexels.com/photos/6939259/pexels-photo-6939259.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        title: "SHOES",
+        cat: "shoes"
+    },
+    {
+        id: 5,
+        img: "https://images.pexels.com/photos/2906664/pexels-photo-2906664.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        title: "HAT CHAPEU",
+        cat: "hat"
+    }
 ];
 
 export const popularProducts = [{
