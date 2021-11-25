@@ -10,6 +10,7 @@ import {
   Route,
   Routes     
 } from "react-router-dom";
+import Success from './pages/Success';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/product/:id" element={<Product />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/success" element={<Success />} />
         <Route path="/register" element={<Register />} />
       </Routes>
   </Router>
