@@ -8,6 +8,8 @@ import Newsletter from '../components/Newsletter';
 import { mobile } from "../responsive";
 import {useLocation} from "react-router-dom";
 import {publicRequest} from "../requestMethods";
+import { addProduct } from '../redux/cartRedux';
+import { useDispatch } from 'react-redux';
 
 
 const Container = styled.div``;
@@ -131,6 +133,8 @@ const Product = () => {
     const [color, setColor] = useState("");
     const [size, setSize] = useState("");
 
+    const dispatch = useDispatch();
+
     useEffect(() => {
       const getProduct = async () => {
         try{
@@ -149,7 +153,13 @@ const Product = () => {
       }else if(type === "inc") {
         setQuantity(quantity+1);
       }
-    }
+    };
+
+    const handleClick = () => {
+      //update Cart Using Redux / addProduct Action
+      //dipatch action so the components recognize it s a Redux action
+      dispatch(addProduct({...product, quantity, color, size}));
+    };
 
     return (
         <Container>
@@ -194,7 +204,7 @@ const Product = () => {
                             <Amount>{quantity}</Amount>
                             <Add onClick={() => handleQuantity("inc")}/>
                         </AmountContainer>
-                        <Button>ADD TO CART</Button>
+                        <Button onClick={handleClick}>ADD TO CART</Button>
                     </AddContainer>
                 </InfoContainer>
             </Wrapper>
