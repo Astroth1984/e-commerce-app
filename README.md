@@ -43,7 +43,7 @@ Or simply Register on /register and use your created account.
 
 ### Shop Admin Panel  (Back-office): 
 
-For Admin Dashboard, and Admin Control, Check-out  **[Admin-Panel](https://github.com/Astroth1984/Admin-Panel-Shop "Admin Back Office")** Repository
+For Admin Dashboard, and Admin Control, Analytics and more Check-out  **[Admin-Panel](https://github.com/Astroth1984/Admin-Panel-Shop "Admin Back Office")** Repository
 
 
 
