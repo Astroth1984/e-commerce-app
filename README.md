@@ -6,11 +6,14 @@ To make all the http Requests, visit the **[SERVER SIDE](https://github.com/Astr
 
 ## Installation
 
-1. Clone the Repository: ``
+1. Clone the Repository: `git clone https://github.com/Astroth1984/e-commerce-app.git`
 2. Install the required Dependencies: `npm install` or `yarn add`
 3. .env file: Create Your .env file with the shown _key_:
 
 ```
-  REACT_APP_STRIPE: YOUR_PUBLIC_STIPE_API_KEY
-  
+  REACT_APP_STRIPE: YOUR_PUBLIC_STIPE_API_KEY 
 ```
+
+### Overview
+
+
