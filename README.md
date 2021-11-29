@@ -20,5 +20,9 @@ To make all the http Requests, visit the **[SERVER SIDE](https://github.com/Astr
 
 ![Login](login.png)
 
+## Home Page : 
+
+![home page](home.png)
+
 
 
