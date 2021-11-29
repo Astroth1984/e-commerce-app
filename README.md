@@ -22,7 +22,7 @@ To have access to the platforme, please login with the followin account :
   username : admin
   password: admin123
 ```
-Or simply Register on [localhost:3000/register](localhost:3000/register) and use your created account.
+Or simply Register on [localhost:3000/register](http://localhost:3000/register) and use your created account.
 
 ### Overview
 
