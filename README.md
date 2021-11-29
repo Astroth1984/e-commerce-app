@@ -24,5 +24,12 @@ To make all the http Requests, visit the **[SERVER SIDE](https://github.com/Astr
 
 ![home page](home.png)
 
+## Product Item : 
+
+![Product](product.png)
+
+## Cart Page : 
+![cart](cart.png)
+
 
 
