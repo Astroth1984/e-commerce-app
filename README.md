@@ -13,6 +13,7 @@ To make all the http Requests, visit the **[SERVER SIDE](https://github.com/Astr
 ```
   REACT_APP_STRIPE: YOUR_PUBLIC_STIPE_API_KEY 
 ```
+4. Run Project: `npm start` or `yarn start`
 
 ## Login / Register :
 
