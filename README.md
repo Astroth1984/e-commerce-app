@@ -14,6 +14,16 @@ To make all the http Requests, visit the **[SERVER SIDE](https://github.com/Astr
   REACT_APP_STRIPE: YOUR_PUBLIC_STIPE_API_KEY 
 ```
 
+## Login / Register :
+
+To have access to the platforme, please login with the followin account : 
+
+```
+  username : admin
+  password: admin123
+```
+Or simply Register on /register and use your created account.
+
 ### Overview
 
 ## Login Page :
@@ -30,6 +40,14 @@ To make all the http Requests, visit the **[SERVER SIDE](https://github.com/Astr
 
 ## Cart Page : 
 ![cart](cart.png)
+
+### Shop Admin Panel  (Back-office): 
+
+For Admin Dashboard, and Admin Control, Check-out  **[Admin-Panel](https://github.com/Astroth1984/Admin-Panel-Shop "Admin Back Office")** Repository
+
+
+
+
 
 
 
