@@ -22,10 +22,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/e-commerce-app">
-          <Home />
-        </Route>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/products/:category">
