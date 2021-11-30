@@ -1,5 +1,7 @@
 ### React Node.js E-Commerce App (REDUX - Stripe - JWT ) - MERN Stack Shopping App
 
+[![strype-checkout](https://shields.io/badge/stripe-checkout-blue?logo=stripe&style=plastic)]
+
 ## REST-API
 
 To make all the http Requests, visit the **[SERVER SIDE](https://github.com/Astroth1984/ecommerce-REST-Api "Rest-API")** and follow the instructions.
